@@ -49,6 +49,6 @@ test:
 #
 production:
   <<: *default
-  database: demo_deploy_production
-  username: demo_deploy
-  password: <%= ENV['DEMO_DEPLOY_DATABASE_PASSWORD'] %>
+  database: demo_deploy
+  username: root
+  password: anhnam99999
