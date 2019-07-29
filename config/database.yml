@@ -48,7 +48,8 @@ test:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
 production:
-  <<: *default
-  database: demo_deploy
-  username: root
-  password: anhnam99999
+ adapter: mysql2
+ database: demo_deploy
+ host: localhost
+ username: root
+ password: anhnam99999
